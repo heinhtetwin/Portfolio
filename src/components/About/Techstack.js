@@ -1,8 +1,6 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import {
-  DiJavascript1,
-  DiReact,
   DiNodejs,
   DiMongodb,
   DiPython,
@@ -15,9 +13,6 @@ import {
   SiKubernetes,
   SiAnsible,
   SiTerraform,
-  SiPytorch,
-  SiFirebase,
-  SiNextdotjs,
 } from "react-icons/si";
 
 function Techstack() {
