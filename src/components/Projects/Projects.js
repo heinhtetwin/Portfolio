@@ -20,7 +20,7 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={blog}
-              isBlog={true}
+              isBlog={false}
               title="Heinux Blog"
               description="My Personal blog Website built with Netlify, focused on DevOps, Cloud Computing, and Linux System Administration. I created my blog site using Beautiful Jekyll template."
               ghLink="https://github.com/heinhtetwin/heinux-blog"
@@ -30,7 +30,7 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={tailwindblog}
-              isBlog={true}
+              isBlog={false}
               title="Heinux Blog New Design"
               description="A new Blog website built with Nextjs and tailwind CSS."
               ghLink="https://github.com/heinhtetwin/tailwind-css-blog"
