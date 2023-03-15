@@ -2,7 +2,8 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import blog from "../../Assets/Projects/blog.png";
+import tailwindblog from "../../Assets/Projects/next_tailwind_ss.png"
 
 function Projects() {
   return (
@@ -18,12 +19,22 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
-              isBlog={false}
+              imgPath={blog}
+              isBlog={true}
               title="Heinux Blog"
               description="My Personal blog Website built with Netlify, focused on DevOps, Cloud Computing, and Linux System Administration. I created my blog site using Beautiful Jekyll template."
               ghLink="https://github.com/heinhtetwin/heinux-blog"
               demoLink="https://blog.heinhtetwin.com"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={tailwindblog}
+              isBlog={true}
+              title="Heinux Blog New Design"
+              description="A new Blog website built with Nextjs and tailwind CSS."
+              ghLink="https://github.com/heinhtetwin/tailwind-css-blog"
+              demoLink="https://heinuxblog.heinhtetwin.com"
             />
           </Col>
         </Row>
