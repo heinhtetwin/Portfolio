@@ -9,7 +9,6 @@ import rhcsa from "../../Assets/Badges/RHCSA.png"
 
 function Certificates() {
   return (
-    <Container fluid className="project-section">
         <p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
@@ -44,7 +43,6 @@ function Certificates() {
           </Col>
         </Row>
         </p>
-    </Container>
   );
 }
 
