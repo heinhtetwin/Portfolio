@@ -90,7 +90,7 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
-                href="https://blog.heinhtetwin.com"
+                href="https://hashblog.heinhtetwin.com"
                 target="_blank"
                 rel="noreferrer"
               >
