@@ -2,6 +2,7 @@
   <a href="https://portfolio.heinhtetwin.com" target="_blank">Hein Htet Win's Portfolio</a>
 </h2>
 
+
 ## Getting Started
 
 Clone down this repository. You will need `node.js` and `git` installed globally on your machine.
@@ -20,3 +21,5 @@ The page will reload if you make edits.
 
 Open the project folder and Navigate to `/src/components/`. <br/>
 You will find all the components used and you can edit your information accordingly.
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/f81d3d06-b4e9-43c7-9d83-8f23b8a8cfb9/deploy-status)](https://app.netlify.com/sites/heinhtetwin-portfolio/deploys)
