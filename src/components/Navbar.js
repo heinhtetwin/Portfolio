@@ -90,7 +90,7 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
-                href="https://hashblog.heinhtetwin.com"
+                href="https://blog.heinux-training.net"
                 target="_blank"
                 rel="noreferrer"
               >

@@ -25,7 +25,7 @@ function Home2() {
               <br />
               <br />I am fluent in 
               <i>
-                <b className="purple"> Linux System Administration and DevOps Engineering. </b>
+                <b className="purple"> Cloud Solutions & DevOps Engineering  </b>
               </i>
               <br />
               <br />
@@ -34,7 +34,7 @@ function Home2() {
                 <b className="purple">Automation Pipelines</b> and
                 also in areas related to{" "}
                 <b className="purple">
-                  Containerization and Cloud Computing.
+                  Digital Transformation, Well-Architected Cloud Computing and Microservies.
                 </b>
               </i>
               <br />
